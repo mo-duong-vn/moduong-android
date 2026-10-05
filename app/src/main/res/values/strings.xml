@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mở Đường</string>
+    <string name="home_subtitle">Ghi hình hành trình</string>
+    <string name="action_start_recording">Bắt đầu quay</string>
+    <string name="action_stop_recording">Dừng quay</string>
+    <string name="notification_channel_name">Phiên ghi hình</string>
+    <string name="notification_channel_description">Trạng thái phiên camera đang hoạt động</string>
+    <string name="notification_recording_title">Mở Đường đang quay</string>
+    <string name="notification_starting">Đang khởi tạo camera</string>
+    <string name="notification_finalizing">Đang hoàn tất tệp video</string>
+    <string name="notification_stop">Dừng quay</string>
+    <string name="state_idle">Sẵn sàng quay</string>
+    <string name="state_starting">Đang khởi tạo camera</string>
+    <string name="state_recording">Đang ghi video</string>
+    <string name="state_finalizing">Đang hoàn tất video</string>
+    <string name="state_saved">Đã hoàn tất video thử nghiệm</string>
+    <string name="state_partial">Đã dừng, một phần video chưa hoàn tất</string>
+    <string name="state_failed">Không thể tiếp tục ghi hình</string>
+    <string name="detail_ready">Camera chỉ hoạt động sau khi bạn bắt đầu quay.</string>
+    <string name="detail_initializing">Đang mở camera sau và chuẩn bị tệp video.</string>
+    <string name="detail_recording">Đang ghi MP4 vào bộ nhớ riêng của ứng dụng.</string>
+    <string name="detail_finalizing">Đang hoàn tất và kiểm tra tệp video.</string>
+    <string name="detail_stop_requested">Đang chờ camera dừng an toàn.</string>
+    <string name="detail_no_file">Chưa tạo được tệp video.</string>
+    <string name="detail_camera_unavailable">Không thể mở camera sau. Hãy kiểm tra quyền camera hoặc ứng dụng khác đang dùng camera.</string>
+    <string name="detail_recording_error">Camera gặp lỗi; các tệp đã hoàn tất vẫn được giữ lại.</string>
+    <string name="detail_storage_error">Không thể hoàn tất tệp trong bộ nhớ ứng dụng. Các tệp trước đó vẫn được giữ lại.</string>
+    <string name="detail_saved_segments">Đã hoàn tất %1$d tệp MP4 thử nghiệm trong bộ nhớ ứng dụng.</string>
+    <string name="detail_partial_segments">Đã dừng sau khi hoàn tất %1$d tệp MP4; phiên còn phần chưa hoàn tất.</string>
+    <string name="detail_probe_failed">Không đọc được tệp video vừa tạo. Các tệp trước đó vẫn được giữ lại.</string>
+    <string name="detail_notification_permission">Chưa có quyền thông báo; nút dừng trên thông báo có thể không hiện.</string>
+    <string name="permission_camera_denied">Cần quyền camera để bắt đầu ghi hình.</string>
+    <string name="permission_camera_rationale">Mở Đường cần quyền camera khi bạn chủ động bắt đầu quay.</string>
+</resources>
